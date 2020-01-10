@@ -1,0 +1,52 @@
+    html,body
+{
+    background: url('/static/images/bg.jpg')  center no-repeat;
+    height: 100%;
+    background-size: cover;
+    
+}    
+
+
+.topic{
+    text-align: center;
+    padding:10px;
+    color:white;
+    font-family: 'Iceland', cursive;
+    font-size:5em;
+}
+#column1{
+    text-align: left;
+    margin-right: 0px;
+    height: auto;
+    width: 100%
+
+}
+
+    #textInput {
+        border: none;
+        border-bottom: 3px solid aqua;
+    }
+    .userText {
+        color: white;
+        font-family: monospace;
+        font-size: 17px;
+        text-align: right;
+        line-height: 30px;
+    }
+    .userText span {
+        background-color: #009688;
+        padding: 10px;
+        border-radius: 2px;
+    }
+    .botText {
+        color: white;
+        font-family: monospace;
+        font-size: 17px;
+        text-align: left;
+        line-height: 30px;
+    }
+    .botText span {
+        background-color: #EF5350;
+        padding: 10px;
+        border-radius: 2px;
+    }
